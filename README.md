@@ -165,14 +165,14 @@ Figures:
 
 ## 8. Methodology Summary
 
-Frequency: Weekly
-Target: STLFSI4 exceeding mean + 2 standard deviations within 4 weeks
-Validation: TimeSeriesSplit (5 folds, expanding window)
-Test split: Chronological (date-based)
-Metrics: ROC-AUC, PR-AUC
-Models: Logistic Regression, Random Forest, XGBoost
-Explainability: SHAP values (sample size = 400)
-Probability calibration: Sigmoid calibration applied to the final selected model using time-series cross-validation on the training set
+- Frequency: Weekly<br>
+- Target: STLFSI4 exceeding mean + 2 standard deviations within 4 weeks<br>
+- Validation: TimeSeriesSplit (5 folds, expanding window)<br>
+- Test split: Chronological (date-based)<br>
+- Metrics: ROC-AUC, PR-AUC<br>
+- Models: Logistic Regression, Random Forest, XGBoost<br>
+- Explainability: SHAP values (sample size = 400)<br>
+- Probability calibration: Sigmoid calibration applied to the final selected model using time-series cross-validation on the training set
 
 ---
 
