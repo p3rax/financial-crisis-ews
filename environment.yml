@@ -1,0 +1,20 @@
+name: financial-crisis-ews
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - pandas-datareader
+  - yfinance
+  - joblib
+  - tqdm
+  - shap
+  - xgboost
+  - pyyaml
+  - pytest
+  - pip

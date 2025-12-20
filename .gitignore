@@ -1,0 +1,78 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# =====================
+# Environments
+# =====================
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# =====================
+# Data (generated)
+# =====================
+data/*
+!data/.gitkeep
+
+# =====================
+# Models (generated)
+# =====================
+models/*
+!models/.gitkeep
+
+# =====================
+# Results (generated)
+# =====================
+results/*
+!results/.gitkeep
+
+# =====================
+# Notebooks
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Coverage / QA caches
+# =====================
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+
+# =====================
+# LaTeX build artifacts
+# =====================
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# =====================
+# Misc
+# =====================
+.matplotlib/
