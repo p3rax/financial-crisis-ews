@@ -49,8 +49,8 @@ Probability calibration is applied to the final selected model to ensure reliabl
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/p3rax/financial-crisis-ews-clean
-cd financial-crisis-ews-clean
+git clone https://github.com/p3rax/financial-crisis-ews
+cd financial-crisis-ews
 ```
 
 2. Create and activate the Conda environment:
